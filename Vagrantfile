@@ -17,9 +17,9 @@ Vagrant.configure(2) do |config|
       azure.ssh_private_key_file  = settings_secured['ssh_private_key_file']
       azure.ssh_certificate_file  = settings_secured['ssh_certificate_file']
 
-      #azure.cloud_service_name    = settings_secured['cloud_service_name'] # optional. A new one will be generated if not provided.
-      #azure.storage_acct_name     = settings_secured['storage_acct_name'] # optional. A new one will be generated if not provided.
-      #azure.deployment_name       = settings_secured['deployment_name'] # defaults to cloud_service_name
+      azure.cloud_service_name    = settings_secured['cloud_service_name'] # optional. A new one will be generated if not provided.
+      azure.storage_acct_name     = settings_secured['storage_acct_name'] # optional. A new one will be generated if not provided.
+      azure.deployment_name       = settings_secured['deployment_name'] # defaults to cloud_service_name
 
       azure.vm_image              = settings_secured['vm_image']
       azure.vm_size               = settings_secured['vm_size']
