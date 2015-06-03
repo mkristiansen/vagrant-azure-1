@@ -9,6 +9,7 @@
 vagrant/.vagrant/*
 #vagrnat keys
 vagrant/keys
+.vagrant
 
 #for security
 settings_secured.yaml
